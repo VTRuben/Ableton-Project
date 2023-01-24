@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    background-color: #f3f3f3;
+}
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+header{
+    width: 90vw;
+}
+header .primary{
+    display: flex;
+    align-items: center;
+}
+header .primary ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+header .primary ul .try, .log-in{
+    justify-self: flex-end;
+}
